@@ -9,9 +9,35 @@
 * A design document
 * A techinical implementation documemnt
 
+## Grade Components
+
+Your grade will be calculated as the average of two components: Design and Implementation. Specific requirements are provided for each component, as outlined in the following sections.
+
 ## Design Task
 
+Your game design should meet the following requirements with regard to player experience and mechanics.
 
+### Player Experience
+
+The player experience should focus on the categories of **Challenge** and **Drama**. 
+* **Challenge**: The game should present an interesting challenge that can be mastered with practice.
+* **Drama**: The intensity of the game should vary over time to create an engaging dramatic arc.
+
+You should refine these broad goals to establish a specific design vision for your game. 
+
+### Mechanics
+
+The game should meet the following mechanical constraints.
+
+* It is a 2D game made using any of the sprites provided in the framework project. No other art should be used in the game.
+* The player controls an avatar that can be moved using either the keyboard or a gamepad controller.
+* There are 'good things' in the world. When the avatar touches a good thing, they gain points.
+* There are 'bad things' in the world. When the avatar touches a bad thing, they lose health.
+* There are obstacles in the world, which the avatar cannot move through.
+* The game is over when the avatar has lost all of their health.
+* Health and points are displayed as UI elements.
+
+You should refine these mechanics to create a suitable set of mechanics for your game, which achieve your player experience goals. 
 
 ## Implementation Task
 
@@ -89,4 +115,7 @@ Looping background music should play throughout the game.
 
 Audio clips should be played to respond to in game events.
 
+## Submission
+
+## Marking Rubric
 
