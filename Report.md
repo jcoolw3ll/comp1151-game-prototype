@@ -109,7 +109,7 @@ Explain how you refined each of these goals to establish a specific design visio
 
 [[REMOVE COMMENT] This could also be phrased something like: “How do good things motivate and reward skilful play?” OR “How do good things provide goals to motivate play and reward skilful play?”]
 
-  -** How do bad things create tension & relief? (2 marks; 2-3 sentences)**
+- **How do bad things create tension & relief? (2 marks; 2-3 sentences)**
   > _Write here..._
 
 - **How do moving good things/bad things create challenging navigation? (2 marks; 2-3 sentences)**
@@ -196,7 +196,7 @@ If yes, where did you use this feature in your prototype?
 - Script(s):
   > _Write your response here_
 - Screenshot(s) of feature in game or scene view:
-> _Insert screenshot here_
+  > _Insert screenshot here_
 
 ---
 
@@ -209,8 +209,6 @@ If yes, where did you use this feature in your prototype?
   > _Write your response here_
 - Script(s):
   > _Write your response here_
-- Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
 - Screenshot(s) of feature in game or scene view:
   > _Insert screenshot here_
 
@@ -428,8 +426,10 @@ If yes, where did you use this feature in your prototype?
 ### WebGL Build (x marks/% [TODO])
 Was this feature implemented?
   > _Yes / No_
-If yes, where can the build be found in your project repo (i.e., folder path or link)?
+
+If yes, where can the build be found (i.e., itch.io linke or folder path)?
   > _Write your response here_
+
 - Screenshot(s) of game build running in external web browser:
   > _Insert screenshot here_
 
