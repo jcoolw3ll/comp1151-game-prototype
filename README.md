@@ -1,8 +1,7 @@
 # COMP1151 Game Prototype
 
-**Contents**
+## Contents
 
-- [COMP1151 Game Prototype](#comp1151-game-prototype)
 - [Learning Outcomes](#learning-outcomes)
 - [Deliverables:](#deliverables)
 - [Design Task](#design-task)
