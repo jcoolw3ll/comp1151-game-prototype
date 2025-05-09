@@ -3,7 +3,7 @@
 ## Contents
 
 - [Learning Outcomes](#learning-outcomes)
-- [Deliverables:](#deliverables)
+- [Deliverables](#deliverables)
 - [Design Task](#design-task)
   - [Player Experience](#player-experience)
   - [Game Mechanics](#game-mechanics)
@@ -39,7 +39,7 @@
 * **ULO4**: Apply game design principles and processes in the production of a simple game.
 * **ULO5**: Prototype a simple game within a 3D game engine.
 
-# Deliverables:
+# Deliverables
 
 * A link to a playable prototype of the game, uploaded to itch.io.
 * The Unity project for the game
