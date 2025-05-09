@@ -2,8 +2,6 @@
 
 ## Contents
 
-- [COMP1151 Game Prototype](#comp1151-game-prototype)
-  - [Contents](#contents)
 - [Learning Outcomes](#learning-outcomes)
 - [Deliverables:](#deliverables)
 - [Design Task](#design-task)
@@ -34,7 +32,6 @@
 - [Report](#report)
 - [Submission and Marking](#submission-and-marking)
   - [Marking Rubric](#marking-rubric)
-    - [Rubric](#rubric)
 
 # Learning Outcomes
 
@@ -235,8 +232,6 @@ All deliverables will be submitted using this GitHub repository. Make sure to co
 Your final mark will be based on:
 * Implementation (50%): the correctness use of Unity to implement each of the features listed above.
 * Design (50%): Your ability to explain your design decisions including how you refined the player experience and games mechanics, and the connection between the two. 
-
-### Rubric
 
 The following rubrics will be used to assign marks:
 
