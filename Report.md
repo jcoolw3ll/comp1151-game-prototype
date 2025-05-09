@@ -469,6 +469,7 @@ An example has been provided. Delete this line if you didn't use this asset.
 
 | Asset Name | Type | Developer | URL | License |
 | ---------- | ---- | --------- | --- | ------- |
+| Super Tiled2Unity | Unity Package | Seanba | https://seanba.itch.io/supertiled2unity | Open Source |
 | Tiny Town  | Tilemap & Sprites | Kenney | https://kenney.nl/assets/tiny-town | Creative Commons CC0 |
 
 --- 
