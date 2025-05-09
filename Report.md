@@ -454,7 +454,25 @@ If yes, make sure you include a link to the build at the top of this document.
 
 ---
 
-## How to Insert Images in Markdown
+# Third Party Assets
+
+Cite any third part assets you used in your project here, including:
+* The name of the asset
+* The type of asset (tilemap, sprite, audio file)
+* The developer
+* A URL for the associate website
+* The license under which it is distributed.
+
+Collections of assets can be cited as a single line if they are distributed as a package.
+
+An example has been provided. Delete this line if you didn't use this asset.
+
+| Asset Name | Type | Developer | URL | License |
+| ---------- | ---- | --------- | --- | ------- |
+| Tiny Town  | Tilemap & Sprites | Kenney | https://kenney.nl/assets/tiny-town | Creative Commons CC0 |
+
+--- 
+# How to Insert Images in Markdown
 **Instructions:**  
 This document should include images. To insert an image into your documentation, place it in the "Images" subfolder, then place the below text where you want the image to appear:
 
