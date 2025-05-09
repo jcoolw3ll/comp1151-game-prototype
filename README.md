@@ -2,6 +2,8 @@
 
 ## Contents
 
+- [COMP1151 Game Prototype](#comp1151-game-prototype)
+  - [Contents](#contents)
 - [Learning Outcomes](#learning-outcomes)
 - [Deliverables:](#deliverables)
 - [Design Task](#design-task)
@@ -16,8 +18,8 @@
   - [Keyboard Controls using an Input Asset](#keyboard-controls-using-an-input-asset)
   - [Gamepad Controls using an Input Asset](#gamepad-controls-using-an-input-asset)
   - [Trigger Colliders](#trigger-colliders)
-  - [Physics colliders (5%)](#physics-colliders-5)
-  - [Collision events (5%)](#collision-events-5)
+  - [Physics colliders](#physics-colliders)
+  - [Collision events](#collision-events)
   - [Prefabs](#prefabs)
   - [Prefab - Dynamic Instantiation](#prefab---dynamic-instantiation)
   - [Object deactivation or destruction](#object-deactivation-or-destruction)
@@ -32,6 +34,7 @@
 - [Report](#report)
 - [Submission and Marking](#submission-and-marking)
   - [Marking Rubric](#marking-rubric)
+    - [Rubric](#rubric)
 
 # Learning Outcomes
 
@@ -49,7 +52,7 @@ Your final grade will be based 50% on your design document and 50% on the implem
 
 # Design Task 
 
-Your game design should meet the following requirements with regard to player experience and mechanics. You will need to refine these requirements for your particular design vision, but you should not significantly depart from these constraints.
+For this task you will be designing and implementing a game in Unity. Your game design should meet the following requirements with regard to player experience and mechanics. You will need to refine these requirements for your particular design vision, but you should not significantly depart from these constraints.
 
 While we encourage creativity, for marking purposes we require you to meet this requirements. If you want to make significant design changes or extended features, we recommend you do this in a private repository rather than your submitted game.
 
@@ -67,7 +70,7 @@ You should refine these broad goals to establish a specific design vision for yo
 
 ## Game Mechanics
 
-The game should meet the following mechanical constraints.
+The game should meet the following mechanical constraints:
 
 * It is a 2D game designed to be playable in a web browser.
 * The player controls an avatar that can be moved using either the keyboard or a gamepad controller (or both).
@@ -75,9 +78,9 @@ The game should meet the following mechanical constraints.
 * There are obstacles in the world, which the avatar cannot move through.
 * There are 'good things' in the world that can be collected, giving the player points.
 * There are 'bad things' in the world. When the avatar touches a bad thing, they lose health.
+* Either the good things or the bad things (or both) should move.
 * The game is over when the avatar has lost all of their health.
 * Health and points are displayed as UI elements.
-* Either the good things or the bad things (or both) should move.
 
 You should refine these mechanics to create a suitable set of mechanics for your game, which achieve your player experience goals. 
 
@@ -85,7 +88,7 @@ You should refine these mechanics to create a suitable set of mechanics for your
 
 You game should be made using art assets from the following sites:
 * [Kenney.NL](https://kenney.nl/assets): You may use any 2D sprites, tilemaps, UI elements or audio assets from this site.
-* **FIXME**: A source of royalty-free game audio loops.
+* [Incompetech](https://incompetech.com/music/royalty-free/full_list.php): A source of royalty-free game music.
 
 You should not use any other art or audio in your game.
 
@@ -97,9 +100,34 @@ Your game must be built in **Unity 6.0.40f1**. This is the version we will use f
 
 You game should be built using the template Unity project provided in this repository.
 
+The project should already include all the packages you need, including [Super Tiled2Unity](https://seanba.itch.io/supertiled2unity). You should not import any other third-party tools.
+
 Your game must be developed using the Visual Scripting system in Unity. We will not mark any other code in your project. You may use any of the custom nodes included in the template Unity project.
 
-Your game should demonstrate use of the following features. Marks will be assigned for correct implementation of each feature. The marks per feature are listed in the Report.
+Your game should demonstrate use of the following features. Marks will be assigned for correct implementation of each feature. The marks per feature are listed in the Report. Marks for each feature are given shown in the table below.
+
+| Feature | Mark % |
+|---------|--------|
+| Sprites | 2.5% |
+| Tilemaps | 2.5% |
+| Movement using Transform | 2.5% |
+| Movement using Rigidbody | 2.5% |
+| Keyboard Controls using an Input Asset | 2.5% |
+| Gamepad Controls using an Input Asset | 2.5% |
+| Trigger Colliders | 2.5% |
+| Physics colliders | 2.5% |
+| Collision events | 2.5% |
+| Prefabs | 2.5% |
+| Prefab - Dynamic Instantiation | 2.5% |
+| Object deactivation or destruction | 2.5% |
+| UI layout | 2.5% |
+| UI updating | 2.5% |
+| Camera - Basic | 2.5% |
+| Camera - Cinemachine | 2.5% |
+| Audio - Looping | 2.5% |
+| Audio - Events | 2.5% |
+| WebGL Build | 5% |
+| **Total Implementation Mark** | 50% |
 
 ## Sprites
 
@@ -107,7 +135,7 @@ Objects in your game should be represented using sprites imported from one of th
 
 ## Tilemaps
 
-The game world should be implemented using a tilemap created in Tiled, using tilemaps imported from one of the sites listed in [Art and Audio](#art-and-audio) above. The tilemap should include multiple layers, distinguishing background and interactable tiles (e.g walls). 
+The game world should be implemented using a tilemap created in the [Tiled](https://www.mapeditor.org/) map editor, using tilemaps imported from one of the sites listed in [Art and Audio](#art-and-audio) above. The tilemap should include multiple layers, distinguishing background and interactable tiles (e.g walls). 
 
 ## Movement using Transform
 
@@ -129,11 +157,11 @@ A gamepad control mapping for the player avatar should be implemented using an I
 
 At least one object in the scene should implement a trigger collider to trigger a game mechanic. A suitable 2D collider shape should be used.
 
-## Physics colliders (5%)
+## Physics colliders
 
 At least two objects in the scene should implement physics colliders. Suitable 2D colider shapes should be used. Suitable physics materials should be used to set friction and bounciness. The collisions generated should affect the motion of at least one of the objects.
 
-## Collision events (5%)
+## Collision events
 
 One or more game object should respond to an appropriate collision event, from either a trigger collider or a physics collider.
 
@@ -204,24 +232,23 @@ All deliverables will be submitted using this GitHub repository. Make sure to co
 
 ## Marking Rubric
 
-Your final mark will be based 50% on the correctness of your implementation and 50% on your ability to describe your design. 
+Your final mark will be based on:
+* Implementation (50%): the correctness use of Unity to implement each of the features listed above.
+* Design (50%): Your ability to explain your design decisions including how you refined the player experience and games mechanics, and the connection between the two. 
 
-Implementation marks will be based on the correctness of each of the features listed above. The rubric used to mark each feature will be:
+### Rubric
 
-| Grade |  Criteria |
-| ----- | --------- |
-| HD (100) | Feature is free from any apparent errors, and is implemented in a clear and straight-forward way, making suitable use on Unity features. |
-| D (80) | Minor errors which do not significantly affect performance. Implementation uses suitable Unity features but may be unclear or unneccessarily complicated. |
-| CR (70) | Minor errors that affect performance. Implementation uses suitable Unity features but may problems are solved in convoluted ways. |
-| P (60) | Feature is functional but has major flaws. Implementation includes unsuitable or irrelevant features. |
-| F (0-40) | Feature is unrecognisable to what is asked for in the specifications or features a game breaking bug. |
+The following rubrics will be used to assign marks:
 
-Design will be based on you answers in the Design Document section of your report. The rubric used to assess your answers will be:
-
-| Grade |  Criteria |
-| ----- | --------- |
-| HD (100) | Design goals and mechanics are creatively refined with deliberate intent to create a specific experience. Answers show an insightful understanding of the connection between mechanics and experience. Playtesting evaluates both player experience and behaviour, providing insights into their connection. Critical reflection of the game recognises both successes and specific areas for improvment. |
-| D (80) | Design goals are refined with to create a specific experience. Game mechanics are designed to meet these goals, although some elements may need work. Answers show a clear understanding of the connection between mechanics and experience. Playtesting evaluates both player experience and behaviour, with some awareness of their connection. Critical reflection of the game recognises both successes and general areas for improvment. |
-| CR (70) | Design goals are refined with to create a generic experience. Game mechanics are designed to meet these goals, although some elements may be poorly thought out. Answers show a general understanding of the connection between mechanics and experience, with some vagueness. Playtesting evaluates both player experience and behaviour, but lacks awareness of their connection. Critical reflection of the game recognises both successes and failures, but suggestions for improvement are weak.  |
-| P (60) | Design goals are reiterated but not substantially refined. Game mechanics are described but their justificaiton in terms of player experience is weak. Playtesting evaluates player experience or behavour, but provides little useful evaluation. Critical reflection of the game recognises both successes and failures, but doesn't provide meaningful areas of improvement. |
-| F (0-40) | Significant design goals are neglected. Game mechanics deviate significantly from requirements. Little to no awareness of the connection between mechanics and experience is exhibited. There is no evidence of meaningful playtesting. Critical reflection is shallow or one-sided and fails to recognise significant design problems.  |
+| Component | Grade |  Criteria |
+| --------- | ----- | --------- |
+| **Implemenation** | HD (100) | Feature is free from any apparent errors, and is implemented in a clear and straight-forward way, making suitable use of Unity features. |
+|| D (80) | Minor errors which do not significantly affect performance. Implementation uses suitable Unity features but may be unclear or unneccessarily complicated. |
+|| CR (70) | Minor errors that affect performance. Implementation uses suitable Unity features but may problems are solved in convoluted ways. |
+|| P (60) | Feature is functional but has major flaws. Implementation includes unsuitable or irrelevant features. |
+|| F (0-40) | Feature is unrecognisable to what is asked for in the specifications or features a game breaking bug. |
+| **Design** | HD (100) | Design goals and mechanics are creatively refined with deliberate intent to create a specific experience. Answers show an insightful understanding of the connection between mechanics and experience. Playtesting evaluates both player experience and behaviour, providing insights into their connection. Critical reflection of the game recognises both successes and specific areas for improvment. |
+| | D (80) | Design goals are refined with to create a specific experience. Game mechanics are designed to meet these goals, although some elements may need work. Answers show a clear understanding of the connection between mechanics and experience. Playtesting evaluates both player experience and behaviour, with some awareness of their connection. Critical reflection of the game recognises both successes and general areas for improvment. |
+| | CR (70) | Design goals are refined with to create a generic experience. Game mechanics are designed to meet these goals, although some elements may be poorly thought out. Answers show a general understanding of the connection between mechanics and experience, with some vagueness. Playtesting evaluates both player experience and behaviour, but lacks awareness of their connection. Critical reflection of the game recognises both successes and failures, but suggestions for improvement are weak.  |
+| | P (60) | Design goals are reiterated but not substantially refined. Game mechanics are described but their justificaiton in terms of player experience is weak. Playtesting evaluates player experience or behavour, but provides little useful evaluation. Critical reflection of the game recognises both successes and failures, but doesn't provide meaningful areas of improvement. |
+| | F (0-40) | Significant design goals are neglected. Game mechanics deviate significantly from requirements. Little to no awareness of the connection between mechanics and experience is exhibited. There is no evidence of meaningful playtesting. Critical reflection is shallow or one-sided and fails to recognise significant design problems.  |
