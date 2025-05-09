@@ -1,0 +1,1 @@
+Put any art assets you use (sprites, tilemaps, etc) in this folder.
