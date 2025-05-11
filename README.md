@@ -93,7 +93,7 @@ All art assets used should be cited at the end of your Report.
 
 # Implementation Task
 
-Your game must be built in **Unity 6.0.40f1**. This is the version we will use for marking. Any errors caused by using the incorrect version will cost you marks.
+Your game must be built in **Unity 6.0.38f1**. This is the version we will use for marking. Any errors caused by using the incorrect version will cost you marks.
 
 You game should be built using the template Unity project provided in this repository.
 
