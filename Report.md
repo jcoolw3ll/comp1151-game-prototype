@@ -26,7 +26,7 @@ Create a high concept for your game. A high concept should be include:
 - What is the player doing and feeling?
 
 **Your High Concept (2-4 sentences)**
-  > _Write here_
+Dreamride is an endless runner, it takes heavy inspiration from games in the genre but Dreamride stands out, as it is an endless runner with an end. Dreamride tries to mix minor storytelling elements into a space where narritive is rarely present, alonside the use of a vehicle as not just a mechanic/toy, but as a metaphor to explore the final moments of a persons life. In Dreamride, as the players evade, i want the player to be stressing and fearing the non-stop as the cars continuously come forth. Alongisde this stress i want the player to try understand the feeling of sorrow and emathy, and the vulnrability of a persons final moments.
 
 ---
 
@@ -37,22 +37,22 @@ Explain how you refined each of these goals to establish a specific design visio
 Write 1-2 sentences for each. 
 
 - **Challenge:**  
-  > _Write here..._
+  I refined challenge by designing fast paced gamplay that forcers players to constantly react to the oncoming obstacles, creating an unforgiving experience that reflects the characters mental state. I originally was going to use 1 life, but that ended up being to difficult.
 
 - **Drama:**  
-  > _Write here..._
+  To show drama, I build the game around the emotions of a persons final moments, using visual storytelling and progression to show highlight their unfortunante decent. This drama is also enhanced by the fast flowing nature of the game as it intensifies the emotions.
 
 - **Fantasy:**  
-  > _Write here..._
+I explored fantasy by taking the act of driving and turing it into a symbolic journey through decaying environments, allowing players to experience the proccess of a human mind being unravelled and that said person acting upon this. Im forcing the player to feel this.
 
 - **Sensation:**  
-  > _Write here..._
+Sensation was acheived through the collapsing visuals/environments, the looping eerie music, and the camera that follows the car. These 3 accentuate all of the other experiences and make the player feel present in my game.
 
 ---
 
 ### Satisfaction of Player Needs (2%)
 - **Which of the SDT needs (autonomy, competency, and/or relatedness) is your game targeting and how? (1 - 2 sentences)**
-  > _Write here..._
+Dreamride tartgets competency, as players have to hone their reflexes and decision making to survive until the end, with it needing a sense of mastery. It also slightly targets relatedness as I am inviting the player to emotionally connect with the characters final moments, trying to create empathy.
 
 ---
 
@@ -66,80 +66,79 @@ In this section, we are looking at the mechanics of your game prototype.
 
 ### Player Controls and Movement (6%)
 - **Describe the movement scheme for the player avatar (e.g., 8-directional, physics-based)?**
-  > _Write here..._
+ My avatar only uses simple 2-directional movement, moving left and right. The continuous downward motion is controlled by gravity.
 
 - **How do obstacles affect player movement and require skill to navigate?**
-  > _Write here_
+ Obstacles appear at varying locations with different speeds, requiring good timing and quick reactions to move left or right in time to survive.
 
 - **How does this movement scheme align with the avatar identity and contribute to the fantasy of the game?**
-  > _Write here..._
+My 2-directional is limited compared to other games, but the limited control reflects the characters emotional state, spiraling and set on a destined path. This reinforces the fantasy, as the player feels hopeless (as they can only move right or left) which parallels the character.
 
 - **How does this movement scheme map to keyboard / gamepad controls?**
-  > _Write here..._
+  Dreamride doesnt have any gampad controls, on the keyboard the player uses either 'a' or the left arrow to go left, and 'd' or the right arrow to move right.
 
 - **How does the control scheme allow for skilful control and contribute to the challenge of the game?**
-  > _Write here..._
+  
+  This control scheme doesnt really maximise the potential for skilfull control, as it is too simple for it to be complex and isnt considered skillfull. The only thing could be the precise timing of dogding the obstacles. However this simplicity makes the game acsessible.
 
 - **What expectation do you have for player familiarity with the movement and control schemes (e.g. experience with particular game genre conventions)?**
-  > _Write here..._
-
+Players that have played an endless runner or are familiar with arcade style games will recognise the left/right movment mechanic, making it easy to pick up while still somewhat difficult to fully master.
 ---
 
 ### Camera Design (2%)
 - **How does the camera move in the game?**
-  > _Write here..._
+  Unfortunatly my camera works very simply, i have the main camera as a child inside of the 'car' (avatar)
 
 - **How does the camera view support the player's ability to navigate the game world and interact with other game objects?**
-  > _Write here..._
-
+  The camera is fixed to the car, to maintain a constant top down view as the avator moves, I did this to ensure the player can see the upcoming obsticles, environments and make quick movements.
 ---
 
 ### Good and Bad Things (5%)
 - **How are 'good things' generated in the game?**
-  > _Write here..._
+My 'Good thing' is an acceleration boost and are manually placed in the scene using prefabs.
 
 - **How are 'bad things' generated in the game?**
-  > _Write here..._
+ My 'Bad thing' is the oncoming cars that reduce the player's health, are also placed using prefabs throughout the game world.
 
 - **How does the generation of good things and/or bad things contribute to the dramatic arc of the game?**
-  > _Write here..._
+The placement of the boost offers a chance to increase the adrenaline of the player within the tense envirionment, It gives the player more challenge, leading the player to enter the flow and add to its dramatic arc.
 
 - **How do bad things create tension & relief?**
-  > _Write here..._
+  The threat of the unstoppable oncoming cars creates constant tension ad the only way to survive them is to dodge, and succesfully dodging them creates a short moment of releif until you see the next car.
 
 - **How do moving good things/bad things create challenging navigation?**
-  > _Write here..._
+  Both the good and bad things make the players quickly asses the risk and then react to it. Boosts are placed in a convenient location to not force the player to take them, but to give the experienced players an option to increase the difficulty, all this would be happening while the cars continuosly push forward.
 
 ---
 
 ### Goals (3%)
 
 - **How does the process of losing health create tension & contribute to the dramatic arc?**
-  > _Write here..._
+Losing health adds constant pressure, making each mistake feel meaningful a. It reinforces the theme of a deteriorating mental state and brings the player closer to the inevitable “end,” enhancing the dramatic arc. I purposefully didnt decide to add a health bar, as I felt it would take the groundedness out of the game, not having a healthbar shows that we never know when its over.
 
 - **If you turned the scoring system off, what kinds of game play just feel intrinsically fun?**
-  > _Write here..._
+  My 'scoring system' is the speed increasing, so dodging through tight gaps, avoiding oncoming cars, and making moves to grab boosts could still provide satisfying moments that feel rewarding on their own but probably only to newer gamers as it could be to easy without the system for experienced players.
 
 - **How does your scoring system encourage the player towards the intrinsic fun of the game?**
-  > _Write here..._
+ The speed increase from boosts pushes players to take more risks, amplifying both the thrill of movement and the challenge of dodging obstacles. This rewards risky play and reinforces the intense, core loop that makes the game fun.
 
 ---
 
 ### UI, Art & Audio Design (4%)
 - **For each UI element, how does the visual design help convey what is important to the player?**
     - **Score**
-      > _Write here..._
+  The speed of the car visually increases, This acts as a indicator of progress and intensity, pushing the player to keep moving forward and to keep their momentum.
     - **Health**
-      > _Write here..._
+There is no traditional health UI, which reinforces the feeling of vulnerability. Instead, the health remains unknown, reflecting the mystery of the character.
 
 - **How does the art design support the fantasy of the game? (2 marks; 2  3 sentences)**
-  > _Write here..._
+The art begins with a grounded setting, a realistic road, but slowly deteriorates as the player progresses. As reality breaks down, the road fragments and disappears, replaced by abstract visuals and depressive words, reinforcing the descent into the character’s fractured mind and emotional collapse. The bright colours of the map also contrast extremely well will the theme, acting as a parallel, the brightness is getting replaced with the darkness.
 
 - **How does the art & audio create an enjoyable sensation for the player? (2 marks; 2  3 sentences)**
-  > _Write here..._
+  The shift from structured environments to chaos keeps the experience dynamic and visually engaging. The soundtrack blends soft piano with ambient dread and sorrow, creating a haunting atmosphere that complements the tension and provides emotional depth.
 
 - **How does art and/or audio support games other design goals (e.g. the dramatic arc)? (3 marks; 1 paragraph)**
-  > _Write here..._
+ The gradual breakdown of the environment, from the structured road to chaotic visuals and floating depressive words, mirrors the game’s dramatic arc of a mind unraveling. Audio plays a key role by playing music with eerieness, building tension and sadness over time. This fusion of visual and audio decent emphasises the emotional journey of the protagonist, aligning with the Challenge, Drama, Fantasy and Sensation.
 
 ---
 
@@ -149,22 +148,29 @@ Discuss the results of your platesting. Write a paragraph addressing each of the
 
 - **Did you meet each of your experience goals? Why/why not?**
     - **Challege**
-      > _Write here..._
+    Feedback on challenge was mixed. An experienced player found the difficulty satisfying and balanced, praising the gameplay. However, a new gamer found the game overwhelming and too difficult, suggesting that the learning curve may need adjustment for broader accessibility
+
     - **Drama**
-      > _Write here..._
+   Players picked up on the tone and understood that the game was dealing with heavy themes, but they felt the narrative could be made more present or direct. While the visuals and music helped hint at the story, they suggested it to be clearer to enhance the drama.
+
     - **Fantasy**
-      > _Write here..._
+ The fantasy of the journey (driving through a symbolic, mental breakdown) was understood. Players recognized the transition of environments as metaphorical, and this helped them engage with the narrative more.
+
     - **Sensation**
-      > _Write here..._
+Sensation was the weakest experience goal during testing. Players mentioned that the visuals (the sprites) and gameplay feedback lacked impact, and the only element that consistently supported the vibe was the music. They suggested that more refined sprites and audio for pickups/crashes could heighten immersion.
 
 - **Did you notice any patterns of play that supported your experience goals? What were they?**
-  > _Write here..._
+  The experienced player tended to take more risks and took the challenge of chasing boosts for increased difficulty, which strongly supported the challenge goal. The players also became more cautious as the environment shifted and the visuals deteriorated, which aligned well with the drama and fantasy goals, showing they were emotionally responding to the change in tone.
 
 - **Did you notice any patterns of play that undermined your experience goals? What were they?**
-  > _Write here..._
+  The new player avoided the acceleration boosts entirely, because they were too focused on avoiding obstacles. This undermined the sensation and challenge goals by reducing Dreamrides intensity and pacing. Additionally, the new player also became frustrated early due to the difficulty, which weakened the challenge experience. A player also didint look at the environment without absorbing the cues or atmosphere, which lessened the impact of the drama and fantasy elements.
 
 - **Considering the results from playtesting, how might you improve the game? (1-2 paragraphs)**
-  > _Write here..._
+Based on the results, a major improvement would be balancing the game’s difficulty to better accommodate newer players. The current pacing and obstacle layout was designed by me so it favors the experienced player, so introducing a better difficulty curve early on, maybe a slower starting speed or less obstacles, would make the game more accessible without sacrificing challenge for the experienced player. Additionally, the acceleration boosts need reworking to suit both experienced and newer players, maybe by offering temperarily.
+
+Improving the sprite quality and overall visuals would help enhance immersion and sensation. The narrative could be made more present and impactful by having a TextMeshPro text on screen instead of having it on the tilemap, voice lines, and more symbolic visuals in th environment. Reactive sound effects would also strengthen the sensation and drama. Ultimately, improving the movement and behavior of enemy cars will feel more dynamic and intentional, deepening both the gameplay and emotional experience.
+
+
 
 
 ---
@@ -208,238 +214,195 @@ Each feature and the marks for implementing them in your prototype has been list
 
 ## Sprites
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
-- Script(s):
-  > _Write your response here_
+ "Car", "Accel", "Car Up", "STOP", "Image" (UI in canvas)
+  > - Script(s):
+ N/A (Doesnt need scripts)
 - Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+![Sprites](Images/Sprites.png)
 
 ---
 
 ## Tilemaps
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+"DreamRideMap"
 - Script(s):
-  > _Write your response here_
+  n/a
 - Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+  ![Tilemap](Images/Tilemap.png)
 
 ---
 
 ## Movement using Transform
 Was this feature implemented?
-  > _Yes / No_
-
-If yes, where did you use this feature in your prototype?
-- Game Object(s):
-  > _Write your response here_
-- Script(s):
-  > _Write your response here_
-- Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
-
+ No
 ---
 
 ## Movement using Rigidbody
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Car
 - Script(s):
-  > _Write your response here_
+"Car movement"
 - Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+  ![Movement](Images/Movement.png)
 
 ---
 
 ## Gamepad Controls using an Input Asset
 Was this feature implemented?
-  > _Yes / No_
+ Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Car
 - Script(s):
-  > _Write your response here_
+PlayerInputs
 - Screenshot(s) of feature:
-  > _Insert screenshot here_
+  ![Inputs](Images/Inputs.png)
 
 ---
 
 ## Trigger Colliders
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+ "Car", "Car Up","Accel", "STOP"
 - Script(s):
-  > _Write your response here_
+ Car Movement
 - Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+![Trigger](Images/Trigger.png)
 
 ---
 
 ## Physics colliders
 Was this feature implemented?
-  > _Yes / No_
-
-If yes, where did you use this feature in your prototype?
-- Game Object(s):
-  > _Write your response here_
-- Script(s):
-  > _Write your response here_
-- Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+No
 
 ---
 
 ## Collision events
 
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  DreamRideMap
 - Script(s):
-  > _Write your response here_
+ N/a
 - Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+  ![Collider](Images/Collider.png)
 
 ---
 
 ## Prefabs
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Car", "Accel", "Car up", "Managers", "Canvas" (Car down - unimplemented)
 - Script(s):
-  > _Write your response here_
+ N/a
 - Screenshot(s) of feature:
-  > _Insert screenshot here_
+   ![Prefabs](Images/Prefabs.png)
 
 ---
 
 ## Prefab - Dynamic Instantiation
 Was this feature implemented?
-  > _Yes / No_
-
-If yes, where did you use this feature in your prototype?
-- Game Object(s):
-  > _Write your response here_
-- Script(s):
-  > _Write your response here_
-- Screenshot(s) of feature:
-  > _Insert screenshot here_
-
----
+No
 
 ## Object deactivation or destruction
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Car"
 - Script(s):
-  > _Write your response here_
+Car Movement
 - Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+   ![Destroy](Images/Destroy.png)
 
 ---
 
 ## UI layout
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Canvas" 
 - Script(s):
-  > _Write your response here_
+  N/a
 - Screenshot(s) of feature in game view:
-  > _Insert screenshot here_
+   ![Ui](Images/UIlayout.png)
 
 ---
 
 ## UI updating
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  Managers, (scoreManager)
 - Script(s):
-  > _Write your response here_
+  ScoreManager
 - Screenshot(s) of feature:
-  > _Insert screenshot here_
+dont have
 
 ## Camera - Basic
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  Car
 - Script(s):
-  > _Write your response here_
+  n/a
 - Screenshot(s) of feature in scene view:
-  > _Insert screenshot here_
+ ![Camera](/Camera.png)
 
 ---
 
 ### Camera - Cinemachine
 Was this feature implemented?
-  > _Yes / No_
-
-If yes, where did you use this feature in your prototype?
-- Game Object(s):
-  > _Write your response here_
-- Script(s):
-  > _Write your response here_
-- Screenshot(s) of feature in scene view:
-  > _Insert screenshot here_
-
+  No, i wanted to, but simple worked
 ---
 
 ### Audio - Looping
 Was this feature implemented?
-  > _Yes / No_
+ Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Car"
 - Script(s):
-  > _Write your response here_
+ n/a
 - Screenshot(s) of feature in scene view:
-  > _Insert screenshot here_
+ ![Audio](/Audioloop.png)
 
 ---
 
 ### Audio - Events
 Was this feature implemented?
-  > _Yes / No_
+No
 
-If yes, where did you use this feature in your prototype?
-- Game Object(s):
-  > _Write your response here_
-- Script(s):
-  > _Write your response here_
-- Screenshot(s) of feature in scene view:
-  > _Insert screenshot here_
 
 ---
 
