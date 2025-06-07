@@ -238,7 +238,7 @@ If yes, where did you use this feature in your prototype?
 - Script(s):
   N/A (Doesnt need scripts)
 - Screenshot(s) of feature in game or scene view:
-  ![image](images/Sprites.png)
+  ![image](images/exampleImage.png)
 
 
 ---
