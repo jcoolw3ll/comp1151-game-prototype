@@ -238,19 +238,20 @@ If yes, where did you use this feature in your prototype?
 - Script(s):
   N/A (Doesnt need scripts)
 - Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+  ![image]()
+
 
 ---
 
 ## Tilemaps
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "DreamRideMap"
 - Script(s):
-  > _Write your response here_
+  N/A
 - Screenshot(s) of feature in game or scene view:
   > _Insert screenshot here_
 
@@ -258,27 +259,19 @@ If yes, where did you use this feature in your prototype?
 
 ## Movement using Transform
 Was this feature implemented?
-  > _Yes / No_
-
-If yes, where did you use this feature in your prototype?
-- Game Object(s):
-  > _Write your response here_
-- Script(s):
-  > _Write your response here_
-- Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+No
 
 ---
 
 ## Movement using Rigidbody
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+"Car"
 - Script(s):
-  > _Write your response here_
+  "Car movement"
 - Screenshot(s) of feature in game or scene view:
   > _Insert screenshot here_
 
@@ -286,13 +279,13 @@ If yes, where did you use this feature in your prototype?
 
 ## Gamepad Controls using an Input Asset
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
-- Game Object(s):
-  > _Write your response here_
+"Car"
+ 
 - Script(s):
-  > _Write your response here_
+PlayerInputs
 - Screenshot(s) of feature:
   > _Insert screenshot here_
 
@@ -300,13 +293,13 @@ If yes, where did you use this feature in your prototype?
 
 ## Trigger Colliders
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Car", "Car Up","Accel", "STOP"
 - Script(s):
-  > _Write your response here_
+  used in CarMovement
 - Screenshot(s) of feature in game or scene view:
   > _Insert screenshot here_
 
@@ -314,13 +307,13 @@ If yes, where did you use this feature in your prototype?
 
 ## Physics colliders
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Car", "Car Up","Accel", "STOP" 
 - Script(s):
-  > _Write your response here_
+  n/a
 - Screenshot(s) of feature in game or scene view:
   > _Insert screenshot here_
 
@@ -329,13 +322,13 @@ If yes, where did you use this feature in your prototype?
 ## Collision events
 
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+ DreamRideMap
 - Script(s):
-  > _Write your response here_
+  n/a
 - Screenshot(s) of feature in game or scene view:
   > _Insert screenshot here_
 
@@ -343,13 +336,13 @@ If yes, where did you use this feature in your prototype?
 
 ## Prefabs
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+  "Car", "Accel", "Car up", "Managers", "Canvas" (Car down - unimplemented)
 - Script(s):
-  > _Write your response here_
+ n/a
 - Screenshot(s) of feature:
   > _Insert screenshot here_
 
@@ -362,27 +355,27 @@ No
 
 ## Object deactivation or destruction
 Was this feature implemented?
-  > _Yes / No_
+ Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+ "Car"
 - Script(s):
-  > _Write your response here_
+ CarMovement
 - Screenshot(s) of feature in game or scene view:
-  > _Insert screenshot here_
+
 
 ---
 
 ## UI layout
 Was this feature implemented?
-  > _Yes / No_
+ Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+Canvas
 - Script(s):
-  > _Write your response here_
+  n/as
 - Screenshot(s) of feature in game view:
   > _Insert screenshot here_
 
@@ -390,25 +383,25 @@ If yes, where did you use this feature in your prototype?
 
 ## UI updating
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+Managers
 - Script(s):
-  > _Write your response here_
+ScoreManager
 - Screenshot(s) of feature:
   > _Insert screenshot here_
 
 ## Camera - Basic
 Was this feature implemented?
-  > _Yes / No_
+ Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+"car"
 - Script(s):
-  > _Write your response here_
+  n/a
 - Screenshot(s) of feature in scene view:
   > _Insert screenshot here_
 
@@ -424,13 +417,13 @@ No, was thinking about it, but decided to use the child method
 
 ### Audio - Looping
 Was this feature implemented?
-  > _Yes / No_
+  Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  > _Write your response here_
+"Car"
 - Script(s):
-  > _Write your response here_
+ n/a
 - Screenshot(s) of feature in scene view:
   > _Insert screenshot here_
 
