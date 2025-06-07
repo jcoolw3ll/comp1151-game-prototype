@@ -433,8 +433,9 @@ An example has been provided. Delete this line if you didn't use this asset.
 | Asset Name | Type | Developer | URL | License |
 | ---------- | ---- | --------- | --- | ------- |
 | Super Tiled2Unity | Unity Package | Seanba | https://seanba.itch.io/supertiled2unity | Open Source |
-| Tiny Town  | Tilemap & Sprites | Kenney | https://kenney.nl/assets/tiny-town | Creative Commons CC0 |
-
+| Roguelike modern city | Tilemap & Sprites | Kenney | https://kenney.nl/assets/roguelike-modern-city | Creative Commons CC0 |
+| Pico 8 city | Tilemap & Sprites | Kenney | https://kenney.nl/assets/pico-8-city | Creative Commons CC0 |
+| Exotics| audio | Kevin Macleod| https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100233&Search=Search | Creative Commons CC0 |
 --- 
 # How to Insert Images in Markdown
 **Instructions:**  
