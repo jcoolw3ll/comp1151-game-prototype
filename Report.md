@@ -336,7 +336,7 @@ If yes, where did you use this feature in your prototype?
 - Script(s):
 Car Movement
 - Screenshot(s) of feature in game or scene view:
-   ![Destroy](Images/Destroy.png)
+   ![Destroy](Images/Destoryy.png)
 
 ---
 
@@ -372,7 +372,7 @@ Yes
 
 If yes, where did you use this feature in your prototype?
 - Game Object(s):
-  Car
+  Car (as child)
 - Script(s):
   n/a
 - Screenshot(s) of feature in scene view:
