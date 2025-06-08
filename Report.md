@@ -5,7 +5,7 @@
 Provide detail of your WebGL build on itch.io:
 
 **URL**:
-  > _Write here_
+ https://jcoolw3ll.itch.io/dreamrider
 
 **Password (if required):**
   > _Write here_
@@ -408,14 +408,10 @@ No
 
 ### WebGL Build
 Was this feature implemented?
-  > _Yes / No_
+Yes
 
 If yes, make sure you include a link to the build at the top of this document.
 
-- Screenshot(s) of game build running in external web browser:
-  > _Insert screenshot here_
-
----
 
 # Third Party Assets
 
